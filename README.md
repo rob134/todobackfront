@@ -30,3 +30,17 @@ Este é o backend da aplicação **To-Do List**, desenvolvido em **Java Spring B
    ```sh
    git clone https://github.com/rob134/todobackfront.git
    cd backend
+
+2. **Configure a URL da API**
+   ```sh
+   export const environment = {
+  production: false,
+  apiUrl: 'http://localhost:8080'  // Backend API URL
+};
+
+3. **Execute o projeto**
+   ```sh
+   ionic serve
+
+
+
